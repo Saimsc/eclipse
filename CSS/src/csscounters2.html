@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+counter-reset:section;
+}
+h1{
+counter-reset:subsection;
+}
+h1::before{
+counter-increment:section;
+content:"Section " counter(section) ": ";
+}
+h2::before{
+counter-increment:subsection;
+content:counter(section) "." 
+counter(subsection) " ";
+}
+</style>
+</head>
+<body>
+<h1>WEB DESIGNING</h1>
+<h2>HTML</h2>
+<h2>CSS</h2>
+<h2>JAVA</h2>
+<h2>PYTHON</h2>
+<h2>BOOTSTRAP</h2>
+
+<h1>JAVA TUTORIALS</h1>
+<h2>CORE JAVA</h2>
+<h2>SERVLETS</h2>
+<h2>JQUERY</h2>
+<h2>SPRING</h2>
+<h2>SQL</h2>
+</body>
+</html>

@@ -1,0 +1,87 @@
+ package collections.sort.comparator;
+ import java.util.*;
+ public class MovieCollectionSorting {
+	public  void Listsorting(List<Movie> mList2, int choice) {
+
+		if(choice == 1) {
+			// sorting based upon Name
+			NameSort n = new NameSort();
+			Collections.sort(mList2,n);
+			System.out.println("------------------Name Sort-----------------------");	
+		}
+		else if(choice == 2) {
+			// sorting based upon Rating
+			RatingSort r = new RatingSort();
+			Collections.sort(mList2,r);
+			System.out.println("------------------Rating Sort-----------------------");
+		}
+		else if(choice == 3) {
+			//sorting based upon Duration
+			DurationSort d = new DurationSort();
+			Collections.sort(mList2,d);
+			System.out.println("------------------Duration Sort-----------------------");
+			
+		}
+		else if(choice == 4) {
+			// sorting based upon Director
+			DirectorSort de = new DirectorSort();
+			Collections.sort(mList2,de);
+			System.out.println("------------------Director Sort-----------------------");			
+		}
+		else {
+			System.out.println("Invalid Input");
+		}
+			
+		displayList(mList2);
+	}
+	public  void displayList(List<Movie> mlist) {
+		for(Movie m:mlist) {
+			System.out.println(m);
+		}
+		System.out.println("-------------------------------------------------------------------");
+	}
+	
+	/*public void setSorting(Set<Movie> movieSet,int choice) {
+		
+		if(choice == 1) {
+			NameSort n =new  NameSort();
+			Set<Movie> nameset = new TreeSet<Movie>(n);
+			nameset.addAll(movieSet);
+			
+			System.out.println("------------------Name Sort-----------------------");
+			displaySet(nameset);
+			
+		}else if(choice == 2) {
+			
+			RatingSort r = new RatingSort();
+			Set<Movie> ratingset = new TreeSet<Movie>(r);
+			ratingset.addAll(movieSet);
+			
+			System.out.println("------------------Rating Sort-----------------------");
+			displaySet(ratingset);	
+		}
+		else if(choice == 3) {
+			
+			DurationSort d = new DurationSort();
+			Set<Movie> durationset= new TreeSet<Movie>(d);
+			System.out.println("------------------Duration Sort-----------------------");
+			durationset.addAll(movieSet);
+			displaySet(durationset);	
+		}
+		else if(choice == 4) {	
+			DirectorSort de = new DirectorSort();
+			Set<Movie> directorset = new TreeSet<Movie>(de);
+			directorset.addAll(movieSet);
+			
+			System.out.println("------------------Director Sort-----------------------");
+			displaySet(directorset);
+		}	
+	}
+	public void displaySet(Set<Movie> mset) {
+		for(Movie m : mset) {
+			System.out.println(m);
+		}
+	}*/
+	
+}
+

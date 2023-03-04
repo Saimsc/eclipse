@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1197214740.index
+\servlets_sample\src\main\java
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3628515921.index
+\JSTL_SAMPLES_C05\src\main\java
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2782444529.index
+\sai\src\main\resources
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3864357014.index
+\Jsp_Samples_C05\src\main\java
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2121809410.index
+\dmvc\src\main\resources
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2191759806.index
+\JSTL_SAMPLES_C05\src\main\java
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4166523880.index
+\CSS\src
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\726217899.index
+\Demo\src\main\resources
+D:\adjava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2188801703.index
+\d\src\main\resources

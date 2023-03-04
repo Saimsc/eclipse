@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="brown" text="yellow">
+<center><h1> Time </h1>
+<span id="abhi"></span>
+<script> function getTime(){
+	var today=new Date();
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();
+	document.getElementById(abhi);
+	setInterval("getTime()", 1000);
+}
+getTime();
+</script>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [27/Jul/2022:14:50:47 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [27/Jul/2022:14:53:19 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:14:53:20 +0530] "GET /servlets_samples25/WEB-INF/votecheck.html HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:14:56:47 +0530] "GET /servlets_samples25/WEB-INF/votecheck.html HTTP/1.1" 404 682

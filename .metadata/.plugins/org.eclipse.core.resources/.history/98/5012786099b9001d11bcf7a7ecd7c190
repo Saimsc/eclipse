@@ -1,0 +1,76 @@
+package collectiosFramework.set;
+import java.util.*;
+public class DistanceCalculation {
+
+ Map<String,Double> distanceMap = new TreeMap<String,Double>();
+	
+	public void getPointCombniation(List<Point> plist) {		// pList = [p1(0.2,1.2), p2(1.5,0.12), p3(0.35,0.14)]
+		for(int i = 0 ; i <plist.size(); i++) {							// i = 2 <3 
+			
+			Point s1 = plist.get(i);													// s1 = p2(1.5,0.12)
+			for(int j = i + 1;j <plist.size() ; j++) {			// j = 1 + 1 = 2+1 = 3 < 3 F
+
+				Point s2 = plist.get(j);						// s2 = p3(0.35,0.14)
+							
+				
+				
+				//					p1			,		p3	    findDistance(p2(1.5,0.12)),p3(0.35,0.14)
+				distanceMap.put(s1.getName() + "," + s2.getName(), findDistance(s1,s2));
+				/*
+				 * distanceMap.put((p1,p2)  , 1.690088745811736)
+				 * distanceMap.put((p1,p3) , 1.1501738761138933)
+				 * distanceMap.put((p2,p3) , 1.070560660931512)
+				 */
+			}
+			
+			
+		}
+	}
+
+
+public double findDistance(Point s1, Point s2) {		// s1 = p1(0.2,1.2) , s2=p3(0.35,0.14)
+		double distance = 0.0;
+		
+		float x1 = s1.getX();				// 1.5
+		float y1 = s1.getY();				// 0.12
+		
+		float x2 = s2.getX();				// 0.35
+		float y2 = s2.getY();				// 0.14
+		
+		distance =  Math.sqrt(Math.pow((x2-x1),2) +  Math.pow((y2-y1), 2));
+				
+		return distance; // 1.070560660931512
+		
+	}
+	
+	public void findMaxDistance() {
+		
+		double max = 0.0 ; 
+		Map.Entry<String, Double> MaxEntry = null;
+
+		for(Map.Entry<String, Double> e :distanceMap.entrySet()) {
+			
+			double distance = e.getValue();
+			
+			if(distance > max) {
+				max =  distance;
+				MaxEntry = e;
+			}
+		}
+		
+		System.out.println("Max Details Info   " + MaxEntry);
+		
+	
+      /*public void displayMap() {
+		for(Map.Entry<String, Double> e :distanceMap.entrySet()) {
+			System.out.println(e);
+		}*/
+		
+		System.out.println("**************************||||****************************");
+	
+	}
+}
+
+	
+
+

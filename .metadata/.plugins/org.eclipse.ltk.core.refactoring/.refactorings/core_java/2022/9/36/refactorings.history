@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AgeIvalidException.java&apos; to &apos;Deepakcorejava/src/Exceptions.custom_exceptions&apos;&#x0D;&#x0A;- Original project: &apos;core_java&apos;&#x0D;&#x0A;- Destination element: &apos;Deepakcorejava/src/Exceptions.custom_exceptions&apos;&#x0D;&#x0A;- Original element: &apos;exceptions.custom_exceptions.AgeIvalidException.java&apos;" description="Copy compilation unit" destination="=Deepakcorejava/src&lt;Exceptions.custom_exceptions" element1="/src&lt;exceptions.custom_exceptions{AgeIvalidException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1662102647679" units="1" version="1.0"/>
+</session>

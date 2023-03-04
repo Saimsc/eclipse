@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+ol{
+	/*list-style-type:square;
+	list-style-type:lower-greek;
+	list-style-position:inside;*/
+	list-style-position:outside;
+	/*list-style-image:url("file:///C:/Users/SAI%20CHAITANYA/Downloads/waterimage.jpeg");*/
+	marker-offset:15cm;
+}

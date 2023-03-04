@@ -1,0 +1,22 @@
+package collectionsFramework.maps.sorting.demo;
+
+import java.util.Comparator;
+import java.util.Map;
+
+public class ValueSort  implements Comparator<Integer>
+{
+
+	private Map<Integer,Double> m1;
+
+	public ValueSort( Map<Integer,Double> m1) {
+		this.m1 = m1;
+	}
+	@Override
+	public int compare(Integer o1, Integer o2) {
+		
+		//return 0;
+		return -Integer.compare(o1,o2);
+
+	}
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CSS ANIMATIONS</title>
+<style>
+ div{
+ width:200px;
+ /*background-color:red;
+ color:yellow;*/
+ padding:25px;
+ text-align:center;
+ animation-name:first;
+ animation-duration:5s;
+ position:relative;
+ animation-direction:alternate;/*reverse*//*alternate-reverse*/
+ animation-iteration-count:3;/*infinite*/
+ animation-delay:3s;
+/*animation-timing-function:ease-in;*//*linear*//*ease-out*//*ease-in-out*/
+ animation-fill-mode:backwards;/*forwards*/
+ }
+ @keyframes first{
+ /*from{background-color:red;
+ color:yellow;
+ }
+ to{background-color:yellow;
+ color:red;
+ }*/
+ 0%{background-color:red;
+ color:yellow; left:0px; top:0px;
+ }
+ 25%{background-color:yellow;
+ color:red; left:200px; top:0px;
+ }
+ 50%{background-color:black;
+ color:white; left:200px; top:200px;
+ }
+ 75%{background-color:aqua;
+ color:black; left:0px; top:200px;
+ }
+ 100%{background-color:pink;
+ color:green; left:0px; top:0px;
+ }
+ }
+</style>
+</head>
+<body>
+<div>
+Abhishek
+</div>
+</body>
+</html>

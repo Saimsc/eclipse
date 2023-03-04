@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="servlets_sample::org.eclipse.jst.jee.server:servlets_sample::jst.web::3.0" value1="Jsp_Samples_C05::org.eclipse.jst.jee.server:Jsp_Samples_C05::jst.web::3.1" value2="JSTL_SAMPLES_C05::org.eclipse.jst.jee.server:JSTL_SAMPLES_C05::jst.web::3.1"/>
+  </server>
+  <server hostname="localhost" id="HTTP Server at localhost" isPublishing="true" name="HTTP Server at localhost" port="80" runtime-id="HTTP Server" server-type="org.eclipse.wst.server.http.server" server-type-id="org.eclipse.wst.server.http.server" start-timeout="240" stop-timeout="240" timestamp="1" urlPrefix="">
+    <list key="modules" value0="UI_C06::org.eclipse.wst.web.internal.deployables.static:UI_C06::wst.web::1.0"/>
+  </server>
+</servers>

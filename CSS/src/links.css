@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+a{
+	background-color:yellow;
+	text-decoration:none;
+}
+a:link{
+	color:red;
+}
+a:active{
+	color:blue;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:pink;
+	font-size:x-large;
+	background-color:aqua;
+}

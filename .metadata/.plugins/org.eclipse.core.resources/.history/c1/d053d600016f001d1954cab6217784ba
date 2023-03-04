@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="pink">
+<center><h1>Browser History Object Model </h1>Hello welcome to second page<br/><br/>
+<a href="forwardthird.html">Third Page</a>
+<script>function goBack(){
+	history.back();
+}
+function goForward(){
+	history.forward();
+}
+</script>
+<input type="button" value="Back" onclick="goBack();"/>
+<input type="button" value="Back" onclick="goForward();"/>
+
+</center>
+</body>
+</html>

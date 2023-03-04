@@ -1,0 +1,6 @@
+127.0.0.1 - - [28/Jul/2022:08:00:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jul/2022:08:00:23 +0530] "GET /servlets_sample/votecheck.html HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [28/Jul/2022:08:00:29 +0530] "GET /servlets_sample/Vote_check_eligibility?voter_name=sai HTTP/1.1" 200 67
+127.0.0.1 - - [28/Jul/2022:09:10:44 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jul/2022:09:10:45 +0530] "GET /servlets_sample/user.html HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [28/Jul/2022:09:13:45 +0530] "GET /servlets_sample/User_Check?name=sai&pwd=sai@123 HTTP/1.1" 200 97

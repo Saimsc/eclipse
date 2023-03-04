@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+*{
+margin:0;
+padding:0;
+}
+*{
+    background-image: url(file:///C:/Users/SAI%20CHAITANYA/Downloads/flower.jpg);
+	background-position:center;
+	background-repeat:norepeat;
+	background-attachment:fixed;
+} 

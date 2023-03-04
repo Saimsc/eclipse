@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+header{
+	background-color:red;
+    width:80%;
+    margin:0px;
+    padding:5px;
+    color:white;
+    text-align:center;
+    border-width:2px;
+    border-color:yellow;
+    border-style:dashed;
+}
+footer{
+	background-color:red;
+	width:80%;
+	margin:0px;
+    padding:5px;
+    color:white;
+    text-align:right;
+    border-width:2px;
+    border-color:blue;
+    border-style:dashed;
+}
+p{
+
+	width:80%;
+    padding:5px;
+    margin:0px;
+    color:red;
+    border-width:2px;
+    border-color:black;
+    border-style:solid;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CSS Counters</title>
+<style>
+body{
+counter-reset:lesson;/*section*/
+}
+h2::before{
+counter-increment:lesson;
+content:"Tutorial "
+ counter(lesson)": ";
+}
+</style>
+</head>
+<body>
+  <h1>Programming Tutorials in Telugu</h1>
+    <h2>HTML Tutorials</h2>
+    <h2>CSS Tutorials</h2>
+    <h2>SQL Tutorials</h2>
+    <h2>JAVASCRIPT Tutorials</h2>
+    <h2>PHP Tutorials</h2>
+    <h2>JAVA Tutorials</h2>
+    <h2>C Tutorials</h2>
+    <h2>PYTHON Tutorials</h2>
+</body>
+</html>

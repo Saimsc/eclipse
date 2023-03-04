@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<center><h1> Browser Object Model </h1>Welcome to First Page<br/><br/></center>
+<a href="forwardsecond.html">Second page</a>
+<script>
+function goForward(){
+	history.forward();
+}</script>
+<input type="button" value="Forward" onclick="goForward();"/>
+</body>
+</html>

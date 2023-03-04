@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;collectionsFramework.maps.sorting.points.DistanceCalciulation&apos; to &apos;DistanceCalculation&apos;&#x0D;&#x0A;- Original project: &apos;Deepakcorejava&apos;&#x0D;&#x0A;- Original element: &apos;collectionsFramework.maps.sorting.points.DistanceCalciulation&apos;&#x0D;&#x0A;- Renamed element: &apos;collectionsFramework.maps.sorting.points.DistanceCalculation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DistanceCalciulation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;collectionsFramework.maps.sorting.points{DistanceCalciulation.java[DistanceCalciulation" matchStrategy="1" name="DistanceCalculation" qualified="false" references="true" similarDeclarations="false" stamp="1657448001856" textual="false" version="1.0"/>
+</session>

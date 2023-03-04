@@ -1,0 +1,50 @@
+package collections.sort.comparator;
+import java.util.*;
+public class MovieDetails {
+
+	public static void main(String[] args) {
+		Movie m1 = new Movie("RRR","Rajmouli",8,3);
+		Movie m2 = new Movie("Bhaubhali","Rajmouli",9,3);
+		Movie m3 = new Movie("Leader","Shekar",9,2.3f);
+		Movie m4 = new Movie("Saho","Sujit",5,2.45f);
+		Movie m5 = new Movie("Legend","Srinu",8.5f,3);
+		
+		List<Movie> movieList = new LinkedList<Movie>();
+		movieList.add(m1);
+		movieList.add(m2);
+		movieList.add(m3);
+		movieList.add(m4);
+		movieList.add(m5);
+		
+		MovieCollectionSorting msort = new MovieCollectionSorting();
+		
+		
+		//========================================list========================================================
+		//msort.displayList(movieList);
+		
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Sorting Based Upon :\n1.Name\n2.Rating\n3.Duration\n4.Director ");
+		System.out.println("enter the choice : ");
+		int choice = sc.nextInt();
+		
+		msort.Listsorting(movieList,choice);//from scanner to this point this code will also be same for set sorting*/
+		
+		
+	//=====================================Set==============================================================
+		msort.displayList(movieList);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Sorting Based Upon :\n1.Name\n2.Rating\n3.Duration\n4.Director ");
+		System.out.println("enter the choice : ");
+		int choice = sc.nextInt();
+		
+		
+		Set<Movie> mset = new HashSet<Movie>();//if we use set
+		mset.addAll(movieList);
+		msort.setSorting(mset, choice);
+		
+		
+	}
+	
+
+	}
+

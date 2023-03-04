@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UI_C06/public/basicsrylesheet.html&apos; to &apos;basicstylesheet.html&apos;" description="Rename resource &apos;basicsrylesheet.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/basicsrylesheet.html" name="basicstylesheet.html" stamp="1658377406684" updateReferences="true"/>
+</session>
